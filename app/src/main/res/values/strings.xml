@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">iBooking</string>
+
+
+    <string-array name="q">
+        <item>Hotel1</item>
+        <item>Hotel2</item>
+        <item>Hotel3</item>
+        <item>Hotel4</item>
+        <item>Hotel5</item>
+        <item>Hotel6</item>
+        <item>Hotel7</item>
+        <item>Hotel8</item>
+        <item>Hotel9</item>
+        <item>Hotel10</item>
+        <item>Hotel11</item>
+    </string-array>
+
+    <string-array name="r">
+        <item>@drawable/a</item>
+        <item>@drawable/a</item>
+        <item>@drawable/a</item>
+        <item>@drawable/a</item>
+        <item>@drawable/a</item>
+        <item>@drawable/a</item>
+        <item>@drawable/a</item>
+        <item>@drawable/a</item>
+        <item>@drawable/a</item>
+        <item>@drawable/a</item>
+        <item>@drawable/a</item>
+        <item>@drawable/a</item>
+    </string-array>
+
+    <string-array name="e">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+    </string-array>
+
+    <string name="Head">Heading</string>
+</resources>

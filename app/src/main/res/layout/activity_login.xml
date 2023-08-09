@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7F808A"
+    android:outlineSpotShadowColor="@color/black"
+    tools:context=".MainActivity"
+    tools:targetApi="s">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:fontFamily="sans-serif-black"
+        android:text="iBooking"
+        android:textAlignment="center"
+        android:textColor="#1F4461"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/a"
+        android:scaleType="centerCrop"
+        android:alpha="0.2"
+        />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="224dp"
+        android:layout_marginTop="19dp"
+        android:iconifiedByDefault="false"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        android:queryHint="Search here" />
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="60dp"
+        android:orientation="vertical"
+        android:id="@+id/detail">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:text="Choose The Best Place For"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:text="Your Vacation"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            />
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card"
+            android:layout_width="360dp"
+            android:layout_height="290dp"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="#C1042540"
+           >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Media -->
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="194dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/ha" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GALLE"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:text="Find Hotels"
+                        android:backgroundTint="#70A1C8"
+                        android:textSize="9dp"
+                        android:textColor="#000000"
+                        android:shadowColor="#4F697E"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card1"
+            android:layout_width="360dp"
+            android:layout_height="290dp"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="#C1042540">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Media -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="194dp"
+                    app:srcCompat="@drawable/hb"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MATARA"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        />
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:text="Find Hotels"
+                        android:backgroundTint="#70A1C8"
+                        android:textSize="9dp"
+                        android:textColor="#000000"
+                        android:shadowColor="#4F697E"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card2"
+            android:layout_width="360dp"
+            android:layout_height="290dp"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="#C1042540">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Media -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="194dp"
+                    app:srcCompat="@drawable/hc"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HAMBANTOTA"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:text="Find Hotels"
+                        android:backgroundTint="#70A1C8"
+                        android:textSize="9dp"
+                        android:textColor="#000000"
+                        android:shadowColor="#4F697E"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+</ScrollView>
